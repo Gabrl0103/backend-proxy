@@ -1,5 +1,0 @@
-[phases.build]
-cmds = ["mvn clean package -DskipTests"]
-
-[start]
-cmd = "java -jar target/proxy-ai-platform-1.0.0.jar"
